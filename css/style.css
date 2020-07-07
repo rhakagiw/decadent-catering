@@ -1,0 +1,193 @@
+/*Decadent Catering Theme Created by R Web Designs LLC 2019*/
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display:400,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    overflow-x:hidden;/*To remove white spaces*/
+}
+
+body{
+    overflow:hidden !important;
+    width:100%;
+    height:100%;
+    font-family: 'Dancing Script', cursive;
+    background-color:#000;
+    color:#d8d4d4;
+   
+}
+a:hover,
+a{
+ color:#fff;
+}
+
+/*---------------------Heading Styles start here--------------------*/
+h1,h2,h3,h4,h5,h6{
+
+font-family: 'Playfair Display', serif;
+text-transform:text-capitalize; 
+
+}
+h1{
+   font-size:2.5rem;
+}
+h2{
+    font-size:1.6rem;
+}
+h3{
+    font-size:1.4rem;
+}
+h4{
+    font-size:1.1rem;
+}
+h5{
+    font-size:.8rem;
+}
+h6{
+    font-size:.5rem;
+}
+
+.underline{
+    width:75px;
+    border:3px solid #8a2be2;
+    margin:auto;
+}
+
+.mb-6{
+    margin-bottom:6rem;
+}
+
+a[href^="tel"] {
+    color: inherit; /* Inherit text color of parent element. */
+    text-decoration: none; /* Remove underline. */
+
+  }
+
+/*------------------- image styles start here----------------------*/
+
+.rounded{
+    width:100%;
+    height:auto;
+    transform:scale(1.06);
+    transition:transform 0.5s;
+}
+.rounded:hover{
+    transform:scale(1.02);
+  
+}
+
+/*------------------- image styles end here----------------------*/
+
+/*------------------- navbar and menu styles start---------------*/
+.navbar-brand{
+    background-color:rgb(157,133,166);
+    border:2px solid #8A2BE2;
+    letter-spacing:.3rem;
+    font-family: 'Playfair Display', serif;  
+}
+.navbar-brand::first-letter { 
+    font-size: 2rem;
+    color: #8A2BE2;
+  }
+
+.navbar{
+    background-color:#000 !important;
+    border-top:2px solid #8a2be2;
+    border-bottom:2px dashed rgb(192,150,186);
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-collapse{
+    max-height:none !important;/* to remove scroll bar and overide bootrap max-height of 350px*/
+  }
+.navbar-toggler{  /*changes icon color*/
+    background-color: rgb(157,133,166) !important;
+    margin-top:2rem;
+    margin-bottom:2rem;
+  }
+a.nav-link{
+    color: #d8d4d4 !important;
+    text-transform:capitalize;
+    font-size:1.2rem;
+  }
+
+.nav-link:hover{
+ border-left:1px solid rgb(157,133,166); 
+
+}
+
+/*-- nav scrolling offset--*/
+.offset:before{
+    height:5rem;
+    margin-top:-5rem;
+    content:"";
+    display:block;
+  }
+
+
+/*------------------------------ navbar and menu styles end----------*/
+/*------------- Top background hero banner section styles start------*/
+.jumbotron{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/hero-header.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment:scroll;
+    min-height:100vh;
+}
+
+/*--------------- Top background hero banner section styles end------*/
+
+
+/*--------------------------- button styles starts--------------------*/
+.btn-custom{
+    border-color:rgb(171,112,157);
+    color:#fff;
+    border-radius: 0;
+    background-color:#779780 !important;
+     }
+    
+    .btn-custom:hover,.btn-custom:focus {
+      background-color:white;
+      color:rgb(194,158,189);
+    }
+
+
+    .btn-custom_a{
+        background-color:rgb(157,133,166);
+        
+    }
+/*--------------------------- button styles end-----------------------*/
+
+/*----------------------------Section Event styles start--------------*/
+
+.section-event hr{
+     border-top: 1px solid #d8d4d4;   
+}
+
+
+/*-------------------------Section Event styles end--------------------*/
+/*-----------------------Section Menu styles start---------------------*/
+.section-menu {
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/menu.jpeg');    
+    background-size:cover;
+    background-position:center;                                                       
+    background-attachment:scroll;
+}
+
+ p{
+    font-size:1.3rem;
+}
+
+.card{
+    background-color:transparent;
+    border:1px solid rgb(157,133,166);
+}
+/*--------------------------Section Menu styles ends-------------------*/
+
+/*--------------- Section-Contact styles start------------------------ */
+hr{
+    border-bottom:2px dashed rgb(192,150,186) !important;
+}
+
+/*-------------------- Section-Contact styles end--------------------- */
